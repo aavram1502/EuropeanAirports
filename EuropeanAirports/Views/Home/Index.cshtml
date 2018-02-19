@@ -1,0 +1,69 @@
+﻿@model IEnumerable<EuropeanAirports.Models.AirportViewModel>
+@{
+    ViewBag.Title = "Airports";
+}
+
+<div id="content">
+    <div class="jumbotron">
+        <h1>Airports</h1>
+    </div>
+
+    <div class="row">
+        <div class="row">
+            <div class="col-md-12">
+                In order to get distance between 2 airports, please provide their <b>Iata</b>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <span>Iata1</span>
+                <input id="iata1" type="text" />
+            </div><div class="col-md-6">
+                <span>Iata2</span>
+                <input id="iata2" type="text" />
+            </div>
+            <div class="col-md-3">
+                <button type="button" id="getDistance">Get Distance</button>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-6">
+                <span>Distance: </span>
+                <span id="distance"></span>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-3">Filter By</div>
+            <div class="col-md-6">
+                <select id="countries" class="form-control"></select>
+            </div>
+            <div class="col-md-3">
+                <button type="button" id="applyCountryFilter">Apply</button>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-1">Iata</div>
+            <div class="col-md-4">Name</div>
+            <div class="col-md-1">Iso</div>
+            <div class="col-md-2">Size</div>
+            <div class="col-md-2">Longitude</div>
+            <div class="col-md-2">Latitude</div>
+        </div>
+        <br />
+        <div class="row">
+            @foreach (var airport in Model)
+            {
+                <div class="col-md-1">@airport.Iata</div>
+                <div class="col-md-4">@airport.Name</div>
+                <div class="col-md-1">@airport.Iso</div>
+                <div class="col-md-2">@airport.Size</div>
+                <div class="col-md-2">@airport.Longitude</div>
+                <div class="col-md-2">@airport.Latitude</div>
+            }
+        </div>
+    </div>
+</div>

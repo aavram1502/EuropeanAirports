@@ -1,0 +1,50 @@
+﻿@model EuropeanAirports.Models.DistanceViewModel
+@{
+    ViewBag.Title = "Distance";
+}
+
+<div id="content">
+    <div class="jumbotron">
+        <h1>Distance</h1>
+    </div>
+
+    <div class="row">
+        <div class="row">
+            <b>Airport 1</b>
+        </div>
+        <br />
+        @if (Model.Airport1 != null)
+        {
+            <div class="row">
+                <div class="col-md-1">Iata: @Model.Airport1.Iata</div>
+                <div class="col-md-4">Name: @Model.Airport1.Name</div>
+                <div class="col-md-1">Iso: @Model.Airport1.Iso</div>
+                <div class="col-md-2">Size: @Model.Airport1.Size</div>
+                <div class="col-md-2">Longitude: @Model.Airport1.Longitude</div>
+                <div class="col-md-2">Latitude: @Model.Airport1.Latitude</div>
+            </div>
+            <br />
+        }
+        <div class="row">
+            <b>Airport 2</b>
+        </div>
+        <br />
+        @if (Model.Airport1 != null)
+        {
+            <div class="row">
+                <div class="col-md-1">Iata: @Model.Airport2.Iata</div>
+                <div class="col-md-4">Name: @Model.Airport2.Name</div>
+                <div class="col-md-1">Iso: @Model.Airport2.Iso</div>
+                <div class="col-md-2">Size: @Model.Airport2.Size</div>
+                <div class="col-md-2">Longitude: @Model.Airport2.Longitude</div>
+                <div class="col-md-2">Latitude: @Model.Airport2.Latitude</div>
+            </div>
+            <br />
+        }
+        <div class="row">
+            <div class="col-md-6">
+                <span>Distance: @Model.Distance</span>
+            </div>
+        </div>
+    </div>
+</div>

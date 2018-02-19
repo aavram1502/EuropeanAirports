@@ -1,0 +1,13 @@
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Managers.dll
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Managers.pdb
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Domain.dll
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Services.dll
+D:\Projects\EuropeanAirports\Managers\bin\Debug\System.Device.Portable.dll
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Domain.pdb
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Services.pdb
+D:\Projects\EuropeanAirports\Managers\obj\Debug\Managers.csprojResolveAssemblyReference.cache
+D:\Projects\EuropeanAirports\Managers\obj\Debug\Managers.csproj.CoreCompileInputs.cache
+D:\Projects\EuropeanAirports\Managers\obj\Debug\Managers.dll
+D:\Projects\EuropeanAirports\Managers\obj\Debug\Managers.pdb
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\EuropeanAirports\Managers\bin\Debug\Newtonsoft.Json.xml

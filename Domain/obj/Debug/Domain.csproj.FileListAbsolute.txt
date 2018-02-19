@@ -1,0 +1,6 @@
+D:\Projects\EuropeanAirports\Domain\bin\Debug\Domain.dll
+D:\Projects\EuropeanAirports\Domain\bin\Debug\Domain.pdb
+D:\Projects\EuropeanAirports\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\Projects\EuropeanAirports\Domain\obj\Debug\Domain.dll
+D:\Projects\EuropeanAirports\Domain\obj\Debug\Domain.pdb
+D:\Projects\EuropeanAirports\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
